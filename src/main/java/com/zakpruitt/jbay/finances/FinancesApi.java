@@ -19,7 +19,7 @@ public final class FinancesApi {
     /** Wired by {@link com.zakpruitt.jbay.Jbay#builder()} — not intended to be constructed directly. */
     public FinancesApi(EbayHttp http, EbayAuth auth, EbayEnvironment environment) {
         this.pages = new Pages(http, auth);
-        this.baseUrl = environment.apiBaseUrl() + "/sell/finances/v1/transaction";
+        this.baseUrl = environment.financesApiBaseUrl() + "/sell/finances/v1/transaction";
     }
 
     /** All transactions since the given moment. Paging and eBay's 90-day filter limit are handled internally. */
