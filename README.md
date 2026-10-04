@@ -176,3 +176,12 @@ nothing carries over from production.
 ## License
 
 [MIT](LICENSE)
+
+<!-- portfolio
+name: JBay
+year: 2026
+order: 2
+tags: Java 21, eBay API, OAuth, Library
+summary: A lightweight Java client for eBay's REST APIs. It handles OAuth token minting and caching, paging,
+  and eBay's date-window limits, so you only provide a client ID and secret.
+-->
